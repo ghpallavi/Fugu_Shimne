@@ -1,0 +1,13 @@
+{
+  "name": "codex-fugu",
+  "version": "1.0.0",
+  "description": "Shinme CLI",
+  "type": "module",
+  "bin": { "codex-fugu": "./bin/codex-fugu.js" },
+  "scripts": { "start": "node ./bin/codex-fugu.js" },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5"
+  }
+}
